@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\SlideDownAnimator">
+      <UniqueIdentifier>{d7e1da4c-2593-4da1-9de4-60a7728f517d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animator">
+      <UniqueIdentifier>{fe3d8d2e-3434-4343-8dca-2dc7e40f407b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ArgumentParser">
+      <UniqueIdentifier>{c69d83ee-aa27-49da-a0cf-b84ac4d4fd6a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SlideDownAnimator.cpp">
+      <Filter>Source Files\SlideDownAnimator</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Source Files\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="ArgumentParser.cpp">
+      <Filter>Source Files\ArgumentParser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SlideDownAnimator.h">
+      <Filter>Source Files\SlideDownAnimator</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Source Files\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="ArgumentParser.h">
+      <Filter>Source Files\ArgumentParser</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
